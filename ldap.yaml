@@ -48,13 +48,13 @@ data:
     userpassword: bar
 
     # sr_contractors, People, example.org
-    #dn: uid=sr_contractors,ou=People,dc=example,dc=org
-    #objectClass: inetOrgPerson
-    #cn: sr_contractors
-    #uid: sr_contractors
-    #sn: Contractors
-    #givenName: SR
-    #userpassword: bar
+    dn: uid=sr_contractors,ou=People,dc=example,dc=org
+    objectClass: inetOrgPerson
+    cn: sr_contractors
+    uid: sr_contractors
+    sn: Contractors
+    givenName: SR
+    userpassword: bar
 
     # Group definitions.
 
