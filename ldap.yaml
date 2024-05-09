@@ -73,19 +73,11 @@ data:
     cn: developers
     member: cn=jane,ou=People,dc=example,dc=org
 
-        #dn: cn=sr_admin,ou=Group,dc=example,dc=org
-        #objectClass: groupOfNames
-        #cn: sr_admin
-        #member: uid=sr_fte,ou=People,dc=example,dc=org
-        #member: uid=sr_contractors,ou=People,dc=example,dc=org
     dn: cn=sr_admin,ou=Groups,dc=example,dc=org
     objectClass: groupOfNames
     cn: sr_admin
     member: uid=sr_fte,ou=People,dc=example,dc=org
     member: uid=sr_contractors,ou=People,dc=example,dc=org
-        #member: cn=john,ou=People,dc=example,dc=org
-        #member: cn=jane,ou=People,dc=example,dc=org
-
 
 ---
 apiVersion: v1
